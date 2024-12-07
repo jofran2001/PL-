@@ -1,0 +1,39 @@
+form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+}
+
+.field input, select {
+    width: 300px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #1e3c72;  /* Azul escuro do Paysandu */
+    outline: none;
+}
+
+.field input:focus, select:focus {
+    border-bottom: 2px solid #3d6c8c;  /* Azul claro do Paysandu */
+}
+
+.submit {
+    margin-top: 25px;
+    background-color: #1e3c72; /* Azul escuro do Paysandu */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit:hover {
+    background-color: #3d6c8c; /* Azul claro do Paysandu */
+}

@@ -1,0 +1,50 @@
+form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; 
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+.field input, select {
+    width: 320px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #0099CC; 
+    color: #FFFFFF; 
+    font-size: 1rem;
+    outline: none;
+    transition: border-bottom 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.field input::placeholder, select::placeholder {
+    color: #CCCCCC; 
+}
+
+.field input:focus, select:focus {
+    border-bottom: 2px solid #FFFFFF; 
+    color: #FFFFFF;
+}
+
+.submit {
+    margin-top: 30px;
+    background-color: #0099CC;
+    color: #FFFFFF; 
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.submit:hover {
+    background-color: #006699; 
+}
